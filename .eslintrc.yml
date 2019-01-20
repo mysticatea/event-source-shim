@@ -1,0 +1,11 @@
+root: true
+
+extends:
+  - plugin:@mysticatea/es2018
+  - plugin:@mysticatea/+node
+
+overrides:
+  - files: "*.ts"
+    rules:
+      spaced-comment: "off"
+      "@mysticatea/ts/no-triple-slash-reference": "off"
